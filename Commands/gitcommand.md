@@ -22,7 +22,7 @@ a.out
 * git log : 커밋 기록(히스토리)을 확인
 * git branch : 브랜치 목록 확인 또는 브랜치 생성 (git branch new-bran)
 * git checkout [브랜치명] : 특정 브랜치로 이동
-* git checkout -b [브랜칭명] : 브랜치 생성 후 바로 이동
+* git checkout -b [브랜치명] : 브랜치 생성 후 바로 이동
 * git merge [브랜치] : 현재 브랜치에 다른 브랜치 내용을 병합(다른 브랜치의 변경 사항을 현재 브랜치로 병합)
 * git remote : 원격 저장소 목록 확인 (예: origin)
 * git remote add [별칭] [URL] : 원격 저장소 등록
