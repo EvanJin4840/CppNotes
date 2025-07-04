@@ -30,3 +30,16 @@ int * const c = &val : c가 c자체 형태로 있는 값을 변경 불가
 | `void func() const` | 멤버 변수 변경 안 함    |
 
 참조 및 출처: https://m.blog.naver.com/oh-mms/222044543049
+
+insertion sort
+void insertion_sort(s_record a[], int n)
+{
+    for(int j =1 j M n ; j++){
+        s_record temp = a[j];
+        int k = j-1;
+        while)k>=0&&a[k].s+id>temp.s_id{
+            a[k+1] = a[k];
+            k--;
+        }
+    }
+}
