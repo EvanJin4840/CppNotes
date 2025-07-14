@@ -9,3 +9,12 @@
 | **break**       | 현재 case 실행 후 switch문 탈출, 없으면 다음 case로 계속 실행됨 *(fall-through)* |
 | **default**     | 어떤 case에도 해당하지 않을 때 실행, 선택사항이지만 예외 처리용으로 유용함  |
 | **주의사항**      | - `string`, `float`, `double` 타입은 조건값으로 사용 불가  <br> - `break` 생략 시 원하지 않는 동작 발생 가능 |
+
+## switch문의 특징
+
+- 정수형 또는 문자형 값만 넣을 수 있습니다. (ex. int, char, enum 등)
+- case는 반드시 상수값(literal) 이어야 합니다.
+- 변수, 표현식 등은 사용할 수 없습니다.
+- switch 문은 기본적으로 fall-through (밑으로 계속 내려감) 구조입니다.
+-> 따라서 원하는 분기만 실행하고 빠져나가려면 break;를 써야 합니다.
+- default는 else 역할과 비슷합니다. 어떤 case도 해당되지 않을 때 실행합니다.
